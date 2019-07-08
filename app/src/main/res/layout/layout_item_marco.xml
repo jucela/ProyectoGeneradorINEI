@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/cvItemMarco"
+    android:layout_width="match_parent"
+    android:layout_marginTop="1dp"
+    android:layout_height="@dimen/altura_item_marco"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvItemMarcoCampo1"
+            style="@style/TextViewCampoItemMarco"/>
+        <TextView
+            android:id="@+id/tvItemMarcoCampo2"
+            style="@style/TextViewCampoItemMarco"/>
+        <TextView
+            android:id="@+id/tvItemMarcoCampo3"
+            style="@style/TextViewCampoItemMarco"/>
+        <TextView
+            android:id="@+id/tvItemMarcoCampo4"
+            style="@style/TextViewCampoItemMarco"/>
+        <TextView
+            android:id="@+id/tvItemMarcoCampo5"
+            style="@style/TextViewCampoItemMarco"/>
+        <TextView
+            android:id="@+id/tvItemMarcoCampo6"
+            style="@style/TextViewCampoItemMarco"/>
+        <TextView
+            android:id="@+id/tvItemMarcoCampo7"
+            style="@style/TextViewCampoItemMarco"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

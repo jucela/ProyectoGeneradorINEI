@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".activities.general.SplashActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="248dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/logoinei"
+                />
+            <TextView
+                android:id="@+id/tvTituloSplash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="@dimen/margen_xlarge"
+                android:layout_marginLeft="@dimen/margen_xlarge"
+                android:textColor="@color/colorPrimaryDark"
+                android:text=""/>
+            <ProgressBar
+                android:id="@+id/pbProgresoCopia"
+                android:layout_width="@dimen/margen_xlarge"
+                android:layout_height="@dimen/margen_xlarge"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>

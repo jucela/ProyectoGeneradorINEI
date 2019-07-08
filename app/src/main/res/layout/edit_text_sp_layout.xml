@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/edit_text_lyt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/edit_text_input_texto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="subpregunta"
+        android:gravity="end"
+        android:layout_marginRight="@dimen/margen_small"
+        />
+    <EditText
+        android:id="@+id/edit_text_input"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:inputType="numberPassword"
+        android:paddingLeft="@dimen/margen_small"
+        android:background="@drawable/edittext_enabled"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activities.admin.AdminActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/margen_medium">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MENÚ ADMINISTRADOR"
+            android:gravity="center"
+            android:textColor="@color/colorIcons"
+            android:textStyle="bold"
+            android:textSize="32sp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margen_large"
+            android:src="@drawable/logo_inei_blanco"/>
+        <Button
+            android:id="@+id/btnCargarMarco"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="CARGAR MARCO"
+            android:layout_marginBottom="@dimen/margen_small"
+            android:theme="@style/RaisedButtonDark"/>
+        <Button
+            android:id="@+id/btnExportaBD"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="EXPORTAR BD"
+            android:layout_marginBottom="@dimen/margen_small"
+            android:theme="@style/RaisedButtonDark"/>
+        <Button
+            android:id="@+id/btnHorarioAsistencia"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="HORARIO ASISTENCIA"
+            android:visibility="gone"
+            android:theme="@style/RaisedButtonDark"/>
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="SALIR"
+            android:theme="@style/RaisedButtonDark"/>
+    </LinearLayout>
+</LinearLayout>

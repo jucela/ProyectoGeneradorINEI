@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">GeneradorINEI</string>
+    <string name="texto_ingresar">INGRESAR</string>
+    <string name="texto_usuario">USUARIO</string>
+    <string name="texto_password">CONTRASEÑA</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Strings asociados a la caratula-->
+    <string name="caratula_ubicacion_geografica">UBICACIÓN GEOGRÁFICA</string>
+    <string name="caratula_departamento">1.DEPARTAMENTO</string>
+    <string name="caratula_provincia">2.PROVINCIA</string>
+    <string name="caratula_distrito">3.DISTRITO</string>
+    <string name="caratula_centro_poblado">4.CENTRO POBLADO</string>
+
+    <string name="caratula_ubicacion_muestral">UBICACIÓN MUESTRAL</string>
+    <string name="caratula_zona">5.ZONA N°</string>
+    <string name="caratula_n_manzana">6.MANZANA N°</string>
+    <string name="caratula_aer">7.AER N°</string>
+    <string name="caratula_n_vivienda">7.VIVIENDA N°</string>
+
+    <string name="caratula_direccion">8.DIRECCIÓN DE LA VIVIENDA <i>(Para tipo de vía seleccione sólo un código)</i></string>
+    <string-array name="caratula_array_tipo_via">
+        <item>Seleccione</item>
+        <item>1.Avenida</item>
+        <item>2.Jirón</item>
+        <item>3.Calle</item>
+        <item>4.Pasaje</item>
+        <item>5.Carretera</item>
+        <item>6.Prolongación</item>
+        <item>7.Otro</item>
+    </string-array>
+    <string name="caratula_tipo_via">TIPO DE VÍA</string>
+    <string name="caratula_nombre_via">NOMBRE DE VÍA</string>
+    <string name="caratula_n_puerta">N° PUERTA</string>
+    <string name="caratula_block">BLOCK</string>
+    <string name="caratula_interior">INTERIOR</string>
+    <string name="caratula_piso">PISO</string>
+    <string name="caratula_manzana">MANZANA</string>
+    <string name="caratula_lote">LOTE</string>
+    <string name="caratula_km">KM</string>
+    <string name="caratula_n_telefono">N° de TELÉFONO</string>
+
+    <string name="caratula_total_hogares">9.TOTAL DE HOGARES QUE OCUPAN LA VIVIENDA</string>
+    <string name="caratula_n_hogares">¿CUANTOS HOGARES OCUPAN ESTA VIVIENDA?</string>
+    <string name="caratula_n_hogares_ind">Sra.(Sr.): Si HOGAR es la persona o grupo de personas que se alimentan de una misma olla y atienden en común otras necesidades básicas.</string>
+
+    <string name="texto_especifique">Especifique</string>
+
+    <!--Strings asociados a los hogares-->
+    <string name="hogares_titulo">HOGARES QUE CONSTITUYEN LA VIVIENDA</string>
+    <string name="hogares_numero">N°</string>
+    <string name="hogares_jefe">JEFE HOGAR</string>
+    <string name="hogares_estado">ESTADO</string>
+
+    <string-array name="visita_array_resultados">
+        <item>Seleccione resultado</item>
+        <item>1.Completa</item>
+        <item>2.Incompleta</item>
+        <item>3.Rechazo</item>
+        <item>4.Ausente</item>
+        <item>5.Vivienda desocupada</item>
+        <item>6.No se inició la entrevista</item>
+        <item>7.Otro</item>
+        <item>8.vivienda sin población objetivo</item>
+    </string-array>
+
+    <!--Strings asociados a funcionarios-->
+    <string name="funcionario_titulo">14.FUNCIONARIOS DE LA ENCUESTA</string>
+    <string name="funcionario_cargo">CARGO</string>
+    <string name="funcionario_dni">DNI</string>
+    <string name="funcionario_nombres">NOMBRES Y APELLIDOS</string>
+    <string name="funcionario_encuestador">ENCUESTADOR/A</string>
+    <string name="funcionario_supervisor">SUPERVISOR/A LOCAL</string>
+    <string name="funcionario_coordinador">COORDINADOR/A</string>
+
+    <string name="radio_si">1.SÍ</string>
+    <string name="radio_no">2.NO</string>
+
+    <!--ESIDENTES DEL HOGAR-->
+    <string name="modulo_2_nombre">II.CARACTERÍSTICAS DE LOS RESIDENTES DEL HOGAR</string>
+    <string name="modulo_2_p202_pregunta_miembros">¿CUÁL ES EL PRIMER NOMBRE DE CADA UNA DE LAS PERSONAS QUE VIVEN PERMANENTEMENTE EN ESTE HOGAR Y DE LAS QUE ESTÁN ALOJADAS AQUÍ?</string>
+    <string name="modulo_2_p202_ind">(No olvide registrar a los miembros del hogar ausentes y recién nacidos)</string>
+    <string name="modulo_2_cab_nro">N°</string>
+    <string name="modulo_2_cab_nombre">Nombre</string>
+    <string name="modulo_2_cab_parentesco">Parentesco</string>
+    <string name="modulo_2_cab_sexo">Sexo</string>
+    <string name="modulo_2_cab_edad">Edad</string>
+    <string name="modulo_2_cab_estado_civil">Estado Civil</string>
+    <string name="modulo_2_cab_info_basica">¿Información basica completa?</string>
+
+    <string-array name="modulo_2_p203_parentescos">
+        <item>Seleccione Parentesco</item>
+        <item>1.Jefe/a del hogar</item>
+        <item>2.Esposo/a o compañero/a</item>
+        <item>3.Hijo/a o hijastro/a</item>
+        <item>4.Yerno/Nuera</item>
+        <item>5.Nieto/a</item>
+        <item>6.Padres/Suegros</item>
+        <item>7.Hermano/a</item>
+        <item>8.Otro pariente</item>
+        <item>9.Trabajador/a del hogar</item>
+        <item>10.Pensionista</item>
+        <item>11.Otro No Pariente</item>
+    </string-array>
+
+    <string-array name="modulo_2_p204_sexo">
+        <item>Seleccione Sexo</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string-array name="modulo_2_p206_estado_civil">
+        <item>Seleccione Estado Civil</item>
+        <item>1.Conviviente</item>
+        <item>2.Casado/a</item>
+        <item>3.Viudo/a</item>
+        <item>4.Divorciado/a</item>
+        <item>5.Separado/a o Ex conviviente</item>
+        <item>6.Soltero/a</item>
+    </string-array>
+
+    <string name="modulo_2_p202">202.¿CUÁL ES EL PRIMER NOMBRE DE CADA UNA DE LAS PERSONAS QUE VIVEN PERMANENTEMENTE EN ESTE HOGAR Y DE LAS QUE ESTÁN ALOJADAS AQUÍ?</string>
+    <string name="modulo_2_p202_nombre">Primer Nombre</string>
+    <string name="modulo_2_p203">203.¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL (LA) JEFE/A DEL HOGAR?</string>
+    <string name="modulo_2_p204">204.SEXO</string>
+    <string name="modulo_2_p204_sp1">1.Masculino</string>
+    <string name="modulo_2_p204_sp2">2.Femenino</string>
+    <string name="modulo_2_p205">205¿QUÉ EDAD TIENE EN AÑOS CUMPLIDOS?</string>
+    <string name="modulo_2_p205_anio">Años</string>
+    <string name="modulo_2_p205_mes">Meses</string>
+    <string name="modulo_2_p205_mes_ind">Sólo para menores de 1 año</string>
+    <string name="modulo_2_p206">206.ACTUALMENTE, ¿CUÁL ES SU ESTADO CIVIL O CONYUGAL?</string>
+    <string name="modulo_2_p207">207.¿MIGRÓ DE VENEZUELA?</string>
+
+    <string name="nombre_encuesta">ENCUESTA HOGARES</string>
+
+    <string name="marco_mes">MES</string>
+    <string name="marco_periodo">PERIODO</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_2_p205"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen_small"
+        android:layout_marginTop="@dimen/texto_small"
+        android:orientation="horizontal">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="@dimen/longitud_radio_3"
+            android:layout_marginRight="@dimen/margen_medium"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/mod2_205_textinputedittext_C2_P205_A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:hint="@string/modulo_2_p205_anio"/>
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="@dimen/longitud_radio_3"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/mod2_205_textinputedittext_C2_P205_M"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberPassword"
+                    android:hint="@string/modulo_2_p205_mes"/>
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:layout_width="@dimen/longitud_radio_3"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/modulo_2_p205_mes_ind"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

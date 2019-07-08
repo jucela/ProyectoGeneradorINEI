@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margen_layout_pregunta"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:padding="@dimen/padding_layout_pregunta"
+    android:background="@drawable/marco_pregunta">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/TemaTextoPregunta"
+        android:text="@string/modulo_2_p202"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/texto_small">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/mod2_202_textinputedittext_C2_P202"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/modulo_2_p202_nombre"/>
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

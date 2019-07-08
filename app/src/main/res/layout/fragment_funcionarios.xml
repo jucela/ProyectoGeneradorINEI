@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FuncionariosFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/texto_medium"
+        android:textColor="@color/colorIcons"
+        android:background="@color/colorPrimary"
+        android:text="FUNCIONARIOS DE LA ENCUESTA"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margen_small"
+                android:background="@color/greyBluePrimary"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/greyBluePrimaryDark"
+                    android:gravity="center"
+                    android:text="@string/funcionario_titulo"
+                    android:textColor="@color/colorIcons"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margen_small"
+                    android:text="@string/funcionario_encuestador"
+                    android:textColor="@color/icons"
+                    android:textStyle="bold" />
+                <android.support.v7.widget.CardView
+                    android:id="@+id/funcionarios_cvEncuestador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margen_small"
+                    android:layout_marginRight="@dimen/margen_small">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/margen_small">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/margen_medium"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/funcionario_dni"
+                                android:textColor="@color/greyBluePrimary"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/funcionarios_edtdni_encuestador"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/altura_input_especifique"
+                                android:layout_marginLeft="@dimen/margen_small"
+                                android:layout_weight="2"
+                                android:background="@drawable/input_text_enabled"
+                                android:inputType="numberPassword"
+                                android:paddingLeft="@dimen/margen_small" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/funcionario_nombres"
+                                android:textColor="@color/greyBluePrimary"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/funcionarios_edtnombre_encuestador"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/altura_input_especifique"
+                                android:layout_marginLeft="@dimen/margen_small"
+                                android:layout_weight="2"
+                                android:background="@drawable/input_text_enabled"
+                                android:inputType="text"
+                                android:paddingLeft="@dimen/margen_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margen_small"
+                    android:text="@string/funcionario_supervisor"
+                    android:textColor="@color/colorIcons"
+                    android:textStyle="bold" />
+                <android.support.v7.widget.CardView
+                    android:id="@+id/funcionarios_cvSupervisor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margen_small"
+                    android:layout_marginRight="@dimen/margen_small">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/margen_small">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/margen_medium"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/funcionario_dni"
+                                android:textColor="@color/greyBluePrimary"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/funcionarios_edtdni_supervisor"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/altura_input_especifique"
+                                android:layout_marginLeft="@dimen/margen_small"
+                                android:layout_weight="2"
+                                android:background="@drawable/input_text_enabled"
+                                android:inputType="numberPassword"
+                                android:paddingLeft="@dimen/margen_small" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/funcionario_nombres"
+                                android:textColor="@color/greyBluePrimary"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/funcionarios_edtnombre_supervisor"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/altura_input_especifique"
+                                android:layout_marginLeft="@dimen/margen_small"
+                                android:layout_weight="2"
+                                android:background="@drawable/input_text_enabled"
+                                android:inputType="text"
+                                android:paddingLeft="@dimen/margen_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/margen_small"
+                    android:text="@string/funcionario_coordinador"
+                    android:textColor="@color/colorIcons"
+                    android:textStyle="bold" />
+                <android.support.v7.widget.CardView
+                    android:id="@+id/funcionarios_cvCoordinador"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margen_small"
+                    android:layout_marginLeft="@dimen/margen_small"
+                    android:layout_marginRight="@dimen/margen_small">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/margen_small">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="@dimen/margen_medium"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/funcionario_dni"
+                                android:textColor="@color/greyBluePrimary"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/funcionarios_edtdni_coordinador"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/altura_input_especifique"
+                                android:layout_marginLeft="@dimen/margen_small"
+                                android:layout_weight="2"
+                                android:background="@drawable/input_text_enabled"
+                                android:inputType="numberPassword"
+                                android:paddingLeft="@dimen/margen_small" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="3"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/funcionario_nombres"
+                                android:textColor="@color/greyBluePrimary"
+                                android:textStyle="bold" />
+
+                            <EditText
+                                android:id="@+id/funcionarios_edtnombre_coordinador"
+                                android:layout_width="0dp"
+                                android:layout_height="@dimen/altura_input_especifique"
+                                android:layout_marginLeft="@dimen/margen_small"
+                                android:layout_weight="2"
+                                android:background="@drawable/input_text_enabled"
+                                android:inputType="text"
+                                android:paddingLeft="@dimen/margen_small" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

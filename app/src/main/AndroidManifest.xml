@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pe.gob.inei.generadorinei">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/test"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/test"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.general.SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.general.LoginActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.admin.AdmMarcoActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.admin.AdminActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.general.MarcoActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.general.Marco_hogarActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.empresas.EmpresaActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.hogares.EncuestaActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.hogares.ViviendaActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.hogares.HogarActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.hogares.agregacion.AgregarResidenteActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name=".activities.hogares.agregacion.ResidenteActivity" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

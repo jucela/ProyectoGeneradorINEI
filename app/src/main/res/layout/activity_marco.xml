@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/layout_toolbar"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margen_small"
+        android:padding="@dimen/padding_small">
+        <TableLayout
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margen_small"
+            android:stretchColumns="*">
+            <TableRow>
+                <include layout="@layout/layout_filtro" android:id="@+id/filtro1"/>
+                <include layout="@layout/layout_filtro" android:id="@+id/filtro2"/>
+            </TableRow>
+            <TableRow>
+                <include layout="@layout/layout_filtro" android:id="@+id/filtro3"/>
+                <include layout="@layout/layout_filtro" android:id="@+id/filtro4"/>
+            </TableRow>
+            <Button
+                android:id="@+id/marco_btnMotrarTodo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LIMPIAR FILTROS"
+                android:layout_marginLeft="5dp"
+                android:theme="@style/RaisedButtonDarkGray"/>
+
+        </TableLayout>
+        <include layout="@layout/layout_cabecera_marco"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvItemsMarco"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_small"
+    android:background="@color/colorPrimary">
+    <TextView
+        android:id="@+id/tvCabeceraMarco1"
+        android:text="campo1"
+        style="@style/TextViewCabeceraMarco"/>
+    <TextView
+        android:id="@+id/tvCabeceraMarco2"
+        android:text="campo2"
+        style="@style/TextViewCabeceraMarco"/>
+    <TextView
+        android:id="@+id/tvCabeceraMarco3"
+        android:text="campo3"
+        style="@style/TextViewCabeceraMarco"/>
+    <TextView
+        android:id="@+id/tvCabeceraMarco4"
+        android:text="campo4"
+        style="@style/TextViewCabeceraMarco"/>
+    <TextView
+        android:id="@+id/tvCabeceraMarco5"
+        android:text="campo5"
+        style="@style/TextViewCabeceraMarco"/>
+    <TextView
+        android:id="@+id/tvCabeceraMarco6"
+        android:text="campo6"
+        style="@style/TextViewCabeceraMarco"/>
+    <TextView
+        android:id="@+id/tvCabeceraMarco7"
+        android:text="campo7"
+        style="@style/TextViewCabeceraMarco"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/margen_small"
+    android:paddingRight="@dimen/margen_medium"
+    android:paddingLeft="@dimen/margen_large"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margen_small"
+        android:text="Nombres y Apellidos del jefe o jefa del hogar"/>
+    <EditText
+        android:id="@+id/dialog_jefe_edittext_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:inputType="text"
+        android:paddingLeft="@dimen/margen_small"
+        android:background="@drawable/input_text_enabled"/>
+</LinearLayout>

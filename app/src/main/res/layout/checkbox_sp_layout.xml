@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/checkbox_lyt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox
+        android:id="@+id/checkbox_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="n.Texto Pregunta checkbox"/>
+    <EditText
+        android:id="@+id/checkbox_descripcion"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Especifique"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:enabled="false"
+        android:visibility="gone"
+        android:background="@drawable/edittext_disabled"/>
+</LinearLayout>

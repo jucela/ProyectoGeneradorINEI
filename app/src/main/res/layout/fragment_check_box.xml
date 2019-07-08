@@ -1,0 +1,51 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margen_small">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margen_medium">
+        <EditText
+            android:id="@+id/checkbox_edittext_vacio"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginLeft="1dp"
+            android:visibility="visible"/>
+        <TextView
+            android:id="@+id/checkbox_pregunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="n. texto de la pregunta"
+            android:textColor="@color/colorIneiPrimary"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margen_medium">
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp1" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp2" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp3" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp4" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp5" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp6" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp7" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp8" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp9" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp10" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp11" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp12" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp13" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp14" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp15" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp16" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp17" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp18" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp19" android:visibility="gone"/>
+            <include layout="@layout/checkbox_sp_layout" android:id="@+id/checkbox_sp20" android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

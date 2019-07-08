@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_cabecera_height"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/margen_medium"
+        android:paddingBottom="@dimen/margen_small"
+        android:gravity="bottom"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/header_txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TITULO ENCUESTA"
+            android:textSize="@dimen/texto_small"
+            android:textColor="@color/icons"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/header_imgEncuestado"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/header_txtEncuestado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Encuestado"
+            android:textColor="@color/icons"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        <TextView
+            android:id="@+id/header_txtUsuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/icons"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="Usuario" />
+    </LinearLayout>
+</LinearLayout>

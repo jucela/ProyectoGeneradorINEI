@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/opcion_hogar_iniciar"
+        android:orderInCategory="100"
+        android:title="Iniciar Hogar"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opcion_hogar_editar"
+        android:orderInCategory="100"
+        android:title="Editar Nombre"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/opcion_hogar_eliminar"
+        android:orderInCategory="100"
+        android:title="Eliminar"
+        app:showAsAction="never" />
+</menu>

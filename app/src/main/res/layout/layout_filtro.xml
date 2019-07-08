@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/margen_small"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/tvNombreFiltro"
+        android:layout_marginLeft="@dimen/margen_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/greyBluePrimaryDark"
+        android:textStyle="bold"
+        android:text="Filtro"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_spinner_filtro"
+        app:cardElevation="2dp">
+        <Spinner
+            android:id="@+id/spFiltro"
+            android:layout_width="match_parent"
+            android:drawSelectorOnTop="true"
+            android:layout_height="match_parent"/>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

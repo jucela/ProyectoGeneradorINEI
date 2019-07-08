@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="RaisedButtonDarkBlue" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonDarkGray" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/greyBluePrimaryDark</item>
+        <item name="colorControlHighlight">@color/greyPrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TextViewCabeceraMarco" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorIcons</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewCampoItemMarco" parent="Theme.AppCompat.Light">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CajaInput" parent="Theme.AppCompat.Light">
+        <item name="android:textColorHint">@color/greyBluePrimary</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColorPrimary">@color/greyBluePrimary</item>
+        <item name="colorAccent">@color/greyBluePrimary</item>
+        <item name="colorControlNormal">@color/greyBluePrimary</item>
+        <item name="colorControlActivated">@color/greyBluePrimaryDark</item>
+    </style>
+
+
+    <style name="TemaInputEspecifique" parent="AppTheme">
+        <item name="android:inputType">text</item>
+        <item name="android:enabled">false</item>
+        <item name="android:hint">@string/texto_especifique</item>
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:background">@drawable/input_text_disabled</item>
+        <item name="android:layout_height">@dimen/altura_input_especifique</item>
+        <item name="android:layout_width">@dimen/width_input_especifique</item>
+    </style>
+
+    <style name="RaisedButtonVisitaAgregar" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/greyBluePrimaryDark</item>
+        <item name="colorControlHighlight">@color/greyBluePrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/greyBluePrimaryDark</item>
+        <item name="colorControlHighlight">@color/greyPrimaryDark</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TemaCabeceraVisitas" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorIcons</item>
+    </style>
+
+    <style name="TemaTextoPregunta" parent="AppTheme">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TemaCabeceraP309" parent="AppTheme">
+        <item name="android:paddingLeft">@dimen/margen_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/texto_small</item>
+        <item name="android:textColor">@color/colorIcons</item>
+    </style>
+
+    <style name="RaisedButtonDarkMarco" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/texto_medium</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

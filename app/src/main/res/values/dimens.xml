@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="texto_small">15sp</dimen>
+    <dimen name="texto_medium">20sp</dimen>
+    <dimen name="texto_large">25sp</dimen>
+    <dimen name="texto_xlarge">30sp</dimen>
+    <dimen name="margen_small">8dp</dimen>
+    <dimen name="margen_medium">16dp</dimen>
+    <dimen name="margen_large">24dp</dimen>
+    <dimen name="margen_xlarge">32dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="padding_xlarge">32dp</dimen>
+    <dimen name="altura_spinner_filtro">40dp</dimen>
+    <dimen name="altura_item_marco">56dp</dimen>
+    <dimen name="nav_cabecera_height">176dp</dimen>
+
+    <dimen name="altura_spinner">30dp</dimen>
+    <dimen name="altura_input_especifique">24dp</dimen>
+    <dimen name="width_input_especifique">300dp</dimen>
+
+    <dimen name="margenMaterial">16dp</dimen>
+    <dimen name="margenMaterial2">8dp</dimen>
+
+    <dimen name="margin5dp">5dp</dimen>
+
+    <dimen name="longitud_input_n_horas">150dp</dimen>
+    <dimen name="longitud_input_n">56dp</dimen>
+
+    <dimen name="longitud_radio">200dp</dimen>
+    <dimen name="altura_input_solo">32dp</dimen>
+
+    <dimen name="margen_layout_pregunta">8dp</dimen>
+    <dimen name="padding_layout_pregunta">16dp</dimen>
+    <dimen name="longitud_radio_3">300dp</dimen>
+
+    <dimen name="altura_toolbar">60dp</dimen>
+</resources>

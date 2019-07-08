@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    tools:context=".activities.admin.AdmMarcoActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ok_db"
+            android:backgroundTint="@color/colorPrimary"
+            android:tint="@color/colorPrimaryDark"/>
+        <TextView
+            android:id="@+id/mensaje_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="CARGANDO MARCO..."/>
+        <ProgressBar
+            android:id="@+id/progreso_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"/>
+    </LinearLayout>
+</LinearLayout>
